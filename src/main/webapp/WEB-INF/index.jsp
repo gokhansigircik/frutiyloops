@@ -21,8 +21,8 @@ pageEncoding="UTF-8"%> <%@ taglib prefix = "c" uri =
               </tr>
             </thead>
             <tbody>
-              <!-- i dont have to hard code every tr tag  so for 
-              loop solves the problem- open the foorloop before close it after tr-->
+              <!-- i dont have to hard code every <tr> tag  so for 
+              loop solves the problem -  Open the foorloop before close it after tr-->
               <c:forEach var="fruit" items="${fruits}">
                 <tr>
                   <td><c:out value="${fruit.name}"></c:out></td>
